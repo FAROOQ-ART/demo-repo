@@ -176,7 +176,7 @@ hr{
 }
 
 footer{
-  background: var(--main-gray);
+  background: #695f6a;
   color: var(--main-white);
   padding: 43px 10px;
   display: flex;
