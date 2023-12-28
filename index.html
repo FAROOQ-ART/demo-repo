@@ -3,112 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Young coder">
-    <title>Product landing page</title>
+    <title>Personal Portfolio Project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="styles.css">
-     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <title>Product Landing page</title>
 </head>
+
 <body>
-    <header id="header">
-        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="freecodecamplogo" loading="lazy" id="header-img">
-        <nav id="nav-bar">
-            <ul>
-                <li><a href="#features" class="nav-link">Features</a></li>
-                <li><a href="#How_it_works" class="nav-link">How it works</a></li>
-                <li><a href="#pricing" class="nav-link">Pricing</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="features">
-          <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <h1 id="main-title">Handcrafted,home-made masterpieces</h1>
-            <input id="email"  type="email" name="email" title="enter your email address" placeholder="enter your email address" required>
-            <input id="submit" type="submit" value="GET STARTED">
-          </form>
-        </section>
-        <section id="How_it_works">
-            <div class="grid">
-                <div class="icon">
-                    <i class="fa fa-3x fa-fire"></i>
-                </div>
-                <div class="text">
-                  <h1 class="theading">Premium Materials</h1>
-                  <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longetivity of your purchase.</p>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="icon">
-                  <i class="fa fa-3x fa-truck"></i>
-                </div>
-                <div class="text">
-                  <h1 class="theading">Fast shipping</h1>
-                  <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="icon">
-                  <i class="fa fa-3x fa-battery-full"></i>
-                </div>
-                <div class="text">
-                  <h1 class="theading">Quality assurance</h1>
-                  <p>For every purchase you make, we will ensure that there are no damages or fault and we will check and test the pitch of your instrument.</p>
-                </div>
-            </div>
-        </section>
-        <div >
-            <iframe id="video" src="https://youtu.be/y8Yv4pnO7qc" allowfulllscreen frameborder="0" ></iframe>
+    <nav id="navbar">
+        <ul>
+            <li class="nav-link"><a href="#welcome-section">About</a></li>
+            <li class="nav-link"><a href="#projects">Work</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="welcome-section">
+            <h1>Hey I am a Mimic</h1>
+            <p><i>a web developer</i></p>
+    </section>
+
+    <section id="projects">
+        <h2>These are some of my projects</h2>
+        <hr>
+        <div class="images">
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="project-tile"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" width="400" height="350" alt=""><p>Tribute Page</p></a>
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" class="project-tile""><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" width="400" height="350" alt=""><p>Random 
+                quote Machine
+            </p></a>
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" class="project-tile"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" width="400" height="350" alt=><p>Javascript Calculator</p></a>
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" class="project-tile""><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" width="400" height="350" alt=""><p>Map Data Across The Globe</p></a>
+            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" class="project-tile""><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" width="400" height="350" alt=""><p>Wikipedia Viewer</p></a>
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" class="project-tile""><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" width="400" height="350" alt=""><p>Tic Tac Toe Game</p></a>
         </div>
-        <section id="pricing">
-                <div class="pricing-info" id="info-1">
-                <h2>Tenor trombone</h2>
-                <h1>$600</h1>
-                <ol>
-                    <li class="infos">Lorem ipsum.</li>
-                    <li class="infos">Lorem ipsum.</li>
-                    <li class="infos">Lorem ipsum dolor.</li>
-                    <li class="infos">Lorem ipsum.</li>
-                </ol>
-                <button type="submit">Select</button>
-            </div>
-            <div class="pricing-info" id="info-2">
-                <h2>Bass trombone</h2>
-                <h1>$900</h1>
-                <ol>
-                    <li class="infos">Lorem ipsum.</li>
-                    <li class="infos"class="infos">Lorem ipsum.</li>
-                    <li class="infos">Lorem ipsum dolor.</li>
-                    <li class="infos">Lorem ipsum.</li>
-                </ol>
-                <button type="submit">Select</button>
-            </div>
-            <div class="pricing-info" id="info-3">
-                <h2>VALVE TROMBONE</h2>
-                <h1>$1200</h1>
-                <ol>
-                    <li class="infos">Lorem ipsum.</li>
-                    <li class="infos">Lorem ipsum.</li>
-                    <li class="infos">Lorem ipsum dolor.</li>
-                    <li class="infos">Lorem ipsum.</li>
-                </ol>
-                <form src="">
-                <button type="submit">Select</button>
-            </div>
-        </section>
-        <footer>
-            <ul id="fnav">
-                <li class="flink">Privacy</li>
-                <li class="flink">Terms</li>
-                <li class="flink">Contacts</li>
-            </ul>
-            <span>Copyright 2023, Young coder</span>
-        </footer>
-    </main>
+        
+        <a href="https://codepen.io/FreeCodeCamp/" id="profile-link" target="_blank">Show all<i class="fas fa-chevron"></i></a>
+    </section>
+    
+    <section id="contact">
+        <h1>Let's Work Together...</h1>
+        <p><i>How do you take your coffee?</i></p>
+        <div class="address">
+                <a href="" class="tran"><i class="fab fa-facebook square e"></i>Facebook</a>
+                <a href="" class="tran"><i class="fab fa-github e"></i>Github</a>
+                <a href="" class="tran"><i class="fab fa-twitter e"></i>Twitter</a>
+                <a href="" class="tran"><i class="fas fa-at e"></i>Send a mail</a>
+                <a href="" class="tran"><i class="fas fa-mobile-alt e"></i>Call me</a>      
+        </div>
+    </section>
+
+    <footer>
+        <p>**This is just a fake Portfolio. All the projects and contacts details given are not real.</p>
+        <p>© Created for freeCodeCamp</p>
+    </footer>
 </body>
 </html>
